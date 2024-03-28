@@ -34,9 +34,9 @@ function App() {
         <Route path='/register' exact>
           <Register />
         </Route>
-        <ProtectedRoute path='/dashboard' exact>
+        {/* <ProtectedRoute path='/dashboard' exact> */}
           <Dashboard />
-        </ProtectedRoute>
+        {/* </ProtectedRoute> */}
         <Route path='/forgot-password' exact>
           <ForgotPassword />
         </Route>
